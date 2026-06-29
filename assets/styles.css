@@ -199,7 +199,7 @@ h1,h2,h3,.condensed{ font-family:"Barlow Condensed","Barlow",sans-serif; font-we
 .precios-fecha{ font-size:.78rem; color:var(--muted); text-transform:uppercase; letter-spacing:1px; }
 .precios-fecha b{ color:var(--orange-ink); }
 
-.grupo{ margin-bottom:42px; }
+.grupo{ margin-bottom:42px; scroll-margin-top:96px; }
 .grupo > h2{
   font-size:.86rem; font-family:"Barlow",sans-serif; font-weight:600; text-transform:uppercase; letter-spacing:2px;
   color:var(--orange-ink); padding-bottom:12px; margin-bottom:6px; border-bottom:1px solid var(--line);
