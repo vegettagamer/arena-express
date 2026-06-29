@@ -204,6 +204,13 @@ h1,h2,h3,.condensed{ font-family:"Barlow Condensed","Barlow",sans-serif; font-we
   font-size:.86rem; font-family:"Barlow",sans-serif; font-weight:600; text-transform:uppercase; letter-spacing:2px;
   color:var(--orange-ink); padding-bottom:12px; margin-bottom:6px; border-bottom:1px solid var(--line);
 }
+.grupo-min{
+  display:inline-flex; align-items:center; gap:9px;
+  background:var(--orange); color:#fff; font-weight:600; font-size:.95rem;
+  padding:9px 16px; border-radius:var(--radius); margin:14px 0 6px;
+}
+.grupo-min svg{ width:18px; height:18px; fill:none; stroke:#fff; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; flex-shrink:0; }
+.grupo-min b{ font-weight:700; }
 .tabla-precios{ width:100%; border-collapse:collapse; }
 .tabla-precios tr{ border-bottom:1px solid var(--line); }
 .tabla-precios tr:hover{ background:var(--surface); }
