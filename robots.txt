@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arenaexpress.com.ar/sitemap.xml
