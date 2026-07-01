@@ -204,6 +204,16 @@ h1,h2,h3,.condensed{ font-family:"Barlow Condensed","Barlow",sans-serif; font-we
   font-size:.86rem; font-family:"Barlow",sans-serif; font-weight:600; text-transform:uppercase; letter-spacing:2px;
   color:var(--orange-ink); padding-bottom:12px; margin-bottom:6px; border-bottom:1px solid var(--line);
 }
+.avisos{ display:flex; flex-wrap:wrap; gap:12px; margin-bottom:28px; }
+.aviso{
+  display:inline-flex; align-items:center; gap:10px;
+  font-weight:600; font-size:.98rem; padding:12px 18px; border-radius:var(--radius);
+}
+.aviso svg{ width:19px; height:19px; fill:none; stroke:currentColor; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; flex-shrink:0; }
+.aviso b{ font-weight:700; }
+.aviso-naranja{ background:var(--orange); color:#fff; }
+.aviso-oscuro{ background:var(--ink); color:#fff; }
+
 .mas-productos{
   display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;
   background:var(--ink); color:#fff; border-radius:var(--radius); padding:28px 30px; margin:30px 0 16px;
