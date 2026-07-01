@@ -58,6 +58,17 @@ h1,h2,h3,.condensed{ font-family:"Barlow Condensed","Barlow",sans-serif; font-we
 .btn-claro{ background:transparent; color:#fff; border-color:rgba(255,255,255,.4); }
 .btn-claro:hover{ background:rgba(255,255,255,.12); border-color:rgba(255,255,255,.7); }
 
+/* cartel rojo "hay de todo" (inicio) */
+.banner-rojo{
+  display:block; background:#C62828; color:#fff; text-align:center;
+  padding:12px 18px; font-weight:700; font-size:1.05rem; letter-spacing:.3px;
+  transition:background .15s;
+}
+.banner-rojo:hover{ background:#A82020; }
+.banner-rojo b{ font-weight:800; text-transform:uppercase; }
+.banner-rojo span{ font-weight:500; opacity:.95; }
+@media(max-width:560px){ .banner-rojo{ font-size:.95rem; padding:11px 14px; } }
+
 /* =========================================================
    BARRA SUPERIOR (servicios + teléfono)
    ========================================================= */
