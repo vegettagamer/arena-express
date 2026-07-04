@@ -225,6 +225,15 @@ h1,h2,h3,.condensed{ font-family:"Barlow Condensed","Barlow",sans-serif; font-we
 .aviso-naranja{ background:var(--orange); color:#fff; }
 .aviso-oscuro{ background:var(--ink); color:#fff; }
 
+.oferta-semana{
+  display:flex; align-items:center; gap:15px; flex-wrap:wrap;
+  background:#C62828; color:#fff; border-radius:var(--radius);
+  padding:17px 24px; margin-bottom:22px;
+}
+.oferta-semana svg{ width:28px; height:28px; fill:none; stroke:#fff; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; flex-shrink:0; }
+.oferta-semana .txt b{ display:block; font-family:"Barlow Condensed",sans-serif; font-size:1.55rem; font-weight:700; text-transform:uppercase; letter-spacing:1px; line-height:1.05; }
+.oferta-semana .txt span{ font-size:.95rem; opacity:.95; }
+
 .mas-productos{
   display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;
   background:var(--ink); color:#fff; border-radius:var(--radius); padding:28px 30px; margin:30px 0 16px;
