@@ -1,11 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Arena Express">
-  <rect x="0" y="0" width="96" height="96" rx="16" fill="#2D2C2A"/>
-  <!-- líneas de velocidad paralelas a la pata de la A -->
-  <polygon points="33.5,18 36,18 14,64 11.5,64" fill="#E1701A"/>
-  <polygon points="39,18 43,18 21,64 17,64" fill="#D9661B"/>
-  <polygon points="46,18 54,18 32,64 24,64" fill="#BE5810"/>
-  <!-- letra A -->
-  <path fill-rule="evenodd" d="M58 18 L80 64 L71 64 L67 55 L49 55 L45 64 L36 64 Z M58 30 L62.5 47 L53.5 47 Z" fill="#FFFFFF"/>
-  <!-- EXPRESS -->
-  <text x="48" y="84" text-anchor="middle" font-family="'Barlow', 'Arial Black', sans-serif" font-size="16" font-weight="800" letter-spacing="1.5" fill="#FFFFFF">EXPRESS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="El Concreto">
+  <defs>
+    <clipPath id="techo"><polygon points="48,54 26,79 70,79"/></clipPath>
+  </defs>
+  <!-- marco del techo -->
+  <polygon points="48,44 15,84 81,84" fill="#1B1815"/>
+  <!-- ladrillos rojos -->
+  <polygon points="48,54 26,79 70,79" fill="#C62828"/>
+  <g clip-path="url(#techo)" stroke="#1B1815" stroke-width="2.2" stroke-linecap="square">
+    <line x1="20" y1="66" x2="76" y2="66"/>
+    <line x1="20" y1="73" x2="76" y2="73"/>
+    <line x1="48" y1="54" x2="48" y2="66"/>
+    <line x1="37" y1="66" x2="37" y2="73"/>
+    <line x1="59" y1="66" x2="59" y2="73"/>
+    <line x1="31" y1="73" x2="31" y2="79"/>
+    <line x1="48" y1="73" x2="48" y2="79"/>
+    <line x1="65" y1="73" x2="65" y2="79"/>
+  </g>
+  <!-- paleta de albañil (arriba del techo) -->
+  <g fill="#1B1815">
+    <!-- hoja -->
+    <path d="M33 22 L55 22 L44 52 Z"/>
+    <!-- cuello -->
+    <rect x="41" y="16" width="6" height="8" rx="1.5"/>
+    <!-- mango -->
+    <rect x="44" y="8" width="18" height="8" rx="4" transform="rotate(40 47 12)"/>
+  </g>
 </svg>
